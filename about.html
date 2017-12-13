@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styleAbout.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
+     <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/TVKeyValue.js"></script> 
+    <script type="text/javascript">
+    window.onload = function () {
+    	document.addEventListener('keydown', function(e) {
+            switch (e.keyCode) {
+
+                case 13: //OK button
+                	parent.location = "MenuJeux.html";
+                    console.log("ENTER Button");
+                    break;
+                case 10009: //Back button
+                    parent.location = "index.html";
+                    console.log("Back Button");
+                    break;
+                default:
+                    console.log("Key code : " + e.keyCode);
+                    break;
+            }
+        });
+    	
+        }
+    </script>
+
+</head>
+<body>
+<section class="padding_bottom_none our_service_bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section_heading section_heading_2">
+				
+				<div class="logo_img">
+				<img src="images/brainup_logo_sq.png"alt="logo image">
+					</div>
+					<h3>BrainUp is a game platform built by Esprit students, that offers a variety of games meant to improve kid's cerebral activity </h3>
+					<h3>It is composed of 4 games: quiz, hextris, Simoni, Memory+</h3>
+					<h4>For contacting us : Wissal.Khalfi@esprit.tn Or Mouadh.Lamine@esprit.tn</h4>
+				
+				</br>
+				</div>
+				
+				<div class="screenshot_slider">
+					<div class="app_screenshot">
+						<img src="images/quiz1.png" alt="image-1">
+					</div>
+						
+					<div class="app_screenshot">
+						<img src="images/Hex.png" alt="image-1">
+					</div>
+					
+					<div class="app_screenshot">
+						<img src="images/Genius.png" alt="image-1">
+					</div>
+					
+					<div class="app_screenshot">
+						<img src="images/bulb.png" alt="image-1">
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+</body>
+  </html>

@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    position: fixed;
+}
+body {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("../images/backgroundMenu.jpg");
+    position: fixed;
+}
+.main_btn {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+.selected_btn {
+    color: #000;
+    border: solid 4px white;
+    box-shadow: 6px 6px 20px 10px gray;
+}
+#btn_1 {
+    top: 200px;
+    left: 60px;
+    background-image: url("../images/quiz1.png");
+}
+#btn_2 {
+    top: 200px;
+    left: 520px;
+    background-image: url("../images/Hex.png");
+}
+#btn_3 {
+    top: 200px;
+    left: 970px;
+    background-image: url("../images/Genius.png");
+}
+#btn_4 {
+    top: 200px;
+    left: 1420px;
+    background-image: url("../images/bulb.png");
+}
+
+.text {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 400px;
+    top: 50px;
+    font-size: 80px;
+    color: #e089e0;
+    padding-top: 25px;
+}
+.title {
+    color: #87d2ef;
+    font-size: 30px;
+}
+.main_level {
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 25px;
+    background-color: #64dede;
+}
+.selected_level {
+    color: #000;
+    border: solid 4px white;
+    box-shadow: 6px 6px 20px 10px gray;
+}
+#lev_1 {
+    top: 650px;
+    left: 60px;
+}
+#lev_2 {
+    top: 650px;
+    left: 520px;
+}
+#lev_3 {
+    top: 650px;
+    left: 970px;
+}
+#lev_4 {
+    top: 650px;
+    left: 1420px;
+}
+#navbar{
+	width: 1916px;
+  height: 818px;
+  margin-top: 250px;
+}

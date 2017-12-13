@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<head>
+    <title>Quizz</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/TVKeyValue.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.9.1.js"></script>
+    <script src="js/controller.js"></script>
+    <script type="text/javascript">
+        function initialiser(){
+            if(sessionStorage.getItem("level")== undefined || sessionStorage.getItem("level")== null){
+                  sessionStorage.setItem("level","btn_1");
+            }
+            
+      };
+      navigation("DOWN");
+    </script>
+</head>
+
+<body onload="initialiser();">
+
+    <div id="navContent" align="center">
+        <div id="game1"></div>
+        <div id="game2"></div>
+    </div>
+</body>
+
+</html>

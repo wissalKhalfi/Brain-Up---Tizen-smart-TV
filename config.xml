@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/BrainUp" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="CkPUFQPcJQ.BrainUp" package="CkPUFQPcJQ" required_version="2.3"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="brainup_logo_sq.png" height="117" width="117"/>
+    <name>Esprit Brain Up</name>
+    <tizen:profile name="tv"/>
+</widget>

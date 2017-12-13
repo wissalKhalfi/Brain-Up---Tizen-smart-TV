@@ -1,0 +1,65 @@
+* {
+	font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+	width: 640px;
+	height: 380px;
+	background-image: url("../images/back1.png");
+	position: fixed;
+}
+
+.main_btn {
+	width: 500px;
+	height: 120px;
+	position: absolute;
+	text-align: center;
+	background-image: url("../images/button.png");
+}
+
+.logo {
+	top: 50px;
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	left: 800px;
+}
+
+#logo {
+	background-image: url("../images/brainup_logo_sq.png");
+	width: 354px;
+	height: 355px;
+	margin-left: 0px;
+	margin-top: 10px;
+	border-style: hidden;
+}
+
+#navbar {
+	width: 1916px;
+	height: 818px;
+	margin-top: -125px;
+}
+
+#btn_1 {
+	top: 400px;
+}
+
+#btn_2 {
+	top: 600px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: black;
+}
+
+.selected_btn {
+	border: solid 4px black;
+	box-shadow: 6px 6px 20px 10px black;
+}
+
+div.main_btn:hover {
+	border: solid 4px black;
+	box-shadow: 6px 6px 20px 10px black;
+}

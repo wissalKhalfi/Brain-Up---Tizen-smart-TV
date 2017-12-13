@@ -1,0 +1,149 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	width: 1920px;
+	height: 1080px;
+	background-image: url("images/Wiki1.png");
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#navContent {
+	top: 150px;
+	left: 70px;
+	margin: auto;
+	width: 1600px;
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+}
+
+#game1 {
+	margin: auto;
+	width: 1600px;
+	height: 800px;
+	right: 0px;
+	position: absolute;
+}
+
+#game2 {
+	margin: auto;
+	width: 1600px;
+	height: 800px;
+	right: -800px;
+	position: absolute;
+}
+
+.questionText {
+	font-size: 52px;
+	color: green;
+	font-weight: bold;
+	padding-bottom: 30px;
+	background-color: #FFF;
+	opacity: 0.8;
+	width: 900px;
+	height: 150px;
+	margin: 15px;
+}
+
+.finalSlide {
+	
+	width: 575px;
+	height: 380px; 
+	left : 70px;
+	font-size: 50px;
+	color: black;
+	opacity: 0.8;
+	font-weight: bold;
+	padding-bottom: 30px;
+	background-image: url("images/tableau1.png");
+	font-style: italic;
+	
+}
+
+.option {
+	width: 600px;
+	height: 150px;
+	margin: 15px;
+	font-size: 70px;
+	font-family: "Lucida Console", Courier, monospace;
+	/*color:#1ce3bb;*/
+	color: green;
+	padding: 2px;
+	padding-left: 10px;
+	border: 2px solid white;
+	background-color: #FFF;
+	opacity: 0.9;
+}
+
+.selected_btn {
+	border: solid 4px white;
+	box-shadow: 6px 6px 20px 10px gray;
+	color: #1ce3bb;
+	/* color:#3c43c2; */
+}
+
+.spacer {
+	height: 50px;
+}
+
+.feedback1 {
+	width: 150px;
+	padding: 5px;
+	font-size: 30px;
+	color: #FFFFCC;
+	background-color: #009900;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.feedback2 {
+	width: 150px;
+	padding: 5px;
+	font-size: 30px;
+	color: #FFFFCC;
+	background-color: #CC3300;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.main_btn {
+	width: 400px;
+	height: 400px;
+	text-align: center;
+}
+
+.main_level {
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	font-size: 80px;
+	border-top: 25px;
+	background-color: #64dede;
+}
+
+@media screen and (max-width:800px) {
+	#topbar {
+		margin-left: 1%;
+		margin-right: 1%;
+		width: 96%;
+	}
+	#navContent {
+		margin: 1%;
+		width: 98%;
+	}
+	#game1 {
+		margin: 1%;
+		width: 98%;
+	}
+	#game2 {
+		margin: 1%;
+		width: 98%;
+	}
+}
+
+@media screen and (max-width:460px) {
+	.option {
+		width: 80%;
+		margin: 5%;
+	}
+}
